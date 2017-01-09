@@ -34,7 +34,7 @@ Import themes and apply them to the Calendar in your `style.scss`.
 // Import a pre-built theme
 @import '~@angular/material/core/theming/prebuilt/deeppurple-amber';
 // Import your custom input theme file so you can call the custom-input-theme function
-@import '~angular-material-datepicker/calendar.component.scss';
+@import '~angular-material-datepicker/src/datepicker/calendar.component.scss';
 
 // Using the $theme variable from the pre-built theme you can call the theming function
 @include calendar-theme($theme);
