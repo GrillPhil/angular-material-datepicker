@@ -3,7 +3,7 @@
 
 Prototype of a Material Design Datepicker Component for Angular 2 with theming support based on [Angular-2-Datepicker](https://github.com/koleary94/Angular-2-Datepicker) by Kevin O'Leary [(koleary94)](https://github.com/koleary94). 
 
-![Animation of Datepicker](docs/demo.gif)
+![Animation of Datepicker](docs/Demo.gif)
 
 ## Installation & Setup
 ### #1 Install DatePicker and Material packages with npm
