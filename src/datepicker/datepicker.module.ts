@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MaterialModule } from '@angular/material';
 import { DatePickerComponent } from './datepicker.component';
 import { CalendarComponent } from './calendar.component';
 import { CalendarService } from './calendar.service';
@@ -11,8 +10,7 @@ import { CalendarService } from './calendar.service';
     CalendarComponent
   ],
   imports: [
-    CommonModule,
-    MaterialModule.forRoot()
+    CommonModule
   ],
   exports: [
     DatePickerComponent

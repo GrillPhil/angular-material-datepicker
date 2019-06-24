@@ -1,5 +1,5 @@
 import { Component, Output, Input, EventEmitter, OnInit } from '@angular/core';
-import { MdDialog } from '@angular/material';
+import { MatDialog } from '@angular/material';
 
 import { CalendarComponent } from './calendar.component';
 import { Month } from './month.model';
@@ -13,7 +13,7 @@ import { LANG_DE } from './lang-de';
 })
 export class DatePickerComponent implements OnInit {
 
-  private readonly dialog:MdDialog;
+  private readonly dialog: MatDialog;
   private dateVal: Date;
 
   dayNames: Array<Weekday>;
@@ -33,7 +33,7 @@ export class DatePickerComponent implements OnInit {
     this.formattedDate = this.formatDate(val);
   }
 
-  constructor(dialog: MdDialog) {
+  constructor(dialog: MatDialog) {
     this.dialog = dialog;
     this.dayNames = LANG_DE.weekDays;
     this.monthNames = LANG_DE.months;

@@ -1,5 +1,5 @@
-import { animate, Component, EventEmitter, Input, keyframes, OnInit, Output, style, transition, trigger } from '@angular/core';
-
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { animate, keyframes, style, transition, trigger } from '@angular/animations';
 import { CalendarService } from './calendar.service';
 import { Month } from './month.model';
 import { Weekday } from './weekday.model';
