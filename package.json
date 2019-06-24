@@ -29,6 +29,7 @@
     "e2e": "protractor"
   },
   "dependencies": {
+    "@angular/animations": "^8.0.2",
     "@angular/cli": "^8.0.3",
     "@angular/common": "^2.3.1",
     "@angular/compiler": "^2.3.1",
