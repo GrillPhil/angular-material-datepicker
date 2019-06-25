@@ -1,6 +1,5 @@
 import { Component, Output, Input, EventEmitter, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material';
-
 import { CalendarComponent } from './calendar.component';
 import { Month } from './month.model';
 import { Weekday } from './weekday.model';
@@ -19,13 +18,12 @@ export class DatePickerComponent implements OnInit {
   dayNames: Array<Weekday>;
   monthNames: Array<Month>;
   formattedDate: string;
-  
-  @Output() 
+  @Output()
   dateChange = new EventEmitter<Date>();
 
-  @Input() 
-  get date(): Date { 
-    return this.dateVal; 
+  @Input()
+  get date(): Date {
+    return this.dateVal;
   };
   set date(val: Date) {
     this.dateVal = val;
