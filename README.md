@@ -1,7 +1,4 @@
-# Angular-Material-Datepicker
-[![npm version](https://badge.fury.io/js/angular-material-datepicker.svg)](https://badge.fury.io/js/angular-material-datepicker)  
-
-![Animation of Datepicker](docs/Demo.gif)
+# Angular-Material-Datepicker  
 
 ## Installation & Setup
 ### #1 Install DatePicker and Material packages with npm
