@@ -1,19 +1,19 @@
-@import '~@angular/material/core/theming/all-theme';
-@mixin calendar-theme($theme) {
-  $primary: map-get($theme, primary);
+//@import '~@angular/material/core/theming/all-theme';
+@mixin calendar-theme() {
+  //$primary: map-get($theme, primary);
 
     .header {
         padding: 16px;
-        background-color:md-color($primary);
+        background-color: orangered;
     }
     .footer [md-button] {
-        color: md-color($primary);
+        color: orangered;
     }
     .day-background-normal {
         background-color: transparent;
     }
     .day-background-selected {
-        background-color: md-color($primary);
+        background-color: orangered;
     }
     .day-foreground-normal {
         color: rgba(0, 0, 0, .87);
@@ -22,7 +22,7 @@
         color: rgba(255, 255, 255, .87);
     }
     .day-foreground-today {
-        color: md-color($primary);
+        color: orangered;
     }
 }
 .header, .nav, .content, .footer {

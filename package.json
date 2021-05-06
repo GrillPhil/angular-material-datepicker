@@ -2,7 +2,12 @@
   "name": "angular-material-datepicker",
   "version": "1.0.2",
   "description": "Prototype of a Material Design Datepicker Component for Angular 2",
-  "keywords": ["angular", "angular2", "material", "datepicker"],
+  "keywords": [
+    "angular",
+    "angular2",
+    "material",
+    "datepicker"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GrillPhil/angular-material-datepicker.git"
@@ -24,26 +29,38 @@
     "e2e": "protractor"
   },
   "dependencies": {
-    "@angular/common": "^2.3.1",
-    "@angular/compiler": "^2.3.1",
-    "@angular/core": "^2.3.1",
-    "@angular/forms": "^2.3.1",
-    "@angular/http": "^2.3.1",
-    "@angular/platform-browser": "^2.3.1",
-    "@angular/platform-browser-dynamic": "^2.3.1",
-    "@angular/router": "^3.3.1",
-    "@angular/material": "^2.0.0-beta.1",
+    "@angular/animations": "^8.0.2",
+    "@angular/cdk": "^8.0.1",
+    "@angular/cli": "^8.0.3",
+    "@angular/common": "^8.0.2",
+    "@angular/compiler": "^8.0.2",
+    "@angular/core": "^8.0.2",
+    "@angular/forms": "^8.0.2",
+    "@angular/material": "^8.0.1",
+    "@angular/platform-browser": "^8.0.2",
+    "@angular/platform-browser-dynamic": "^8.0.2",
+    "@angular/router": "^8.0.2",
     "core-js": "^2.4.1",
-    "rxjs": "^5.0.1",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-url": "^8.0.0",
+    "rxjs": "^6.5.2",
+    "sass-loader": "^7.1.0",
+    "serve-static": "^1.14.1",
     "ts-helpers": "^1.1.1",
-    "zone.js": "^0.7.2"
+    "tslib": "^1.9.0",
+    "webpack": "^4.35.0",
+    "webpack-dev-server": "^3.7.2",
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^2.3.1",
+    "@angular-devkit/build-angular": "~0.800.0",
+    "@angular/compiler-cli": "^8.0.2",
     "@types/jasmine": "2.5.38",
     "@types/node": "^6.0.42",
     "angular-cli": "1.0.0-beta.24",
-    "codelyzer": "~2.0.0-beta.1",
+    "codelyzer": "^5.0.1",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "2.5.0",
     "karma": "1.2.0",
@@ -54,6 +71,6 @@
     "protractor": "~4.0.13",
     "ts-node": "1.2.1",
     "tslint": "^4.0.2",
-    "typescript": "~2.0.3"
+    "typescript": "~3.4.5"
   }
 }

@@ -1,9 +1,4 @@
-# Angular-Material-Datepicker
-[![npm version](https://badge.fury.io/js/angular-material-datepicker.svg)](https://badge.fury.io/js/angular-material-datepicker)  
-
-Prototype of a Material Design Datepicker Component for Angular 2 with theming support based on [Angular-2-Datepicker](https://github.com/koleary94/Angular-2-Datepicker) by Kevin O'Leary [(koleary94)](https://github.com/koleary94). 
-
-![Animation of Datepicker](docs/Demo.gif)
+# Angular-Material-Datepicker  
 
 ## Installation & Setup
 ### #1 Install DatePicker and Material packages with npm
@@ -14,7 +9,6 @@ npm install @angular/material
 
 ### #2 Import DatePicker and Material modules  
 ```typescript
-import { MaterialModule } from '@angular/material';
 import { DatePickerModule } from 'angular-material-datepicker';
 ...
 @NgModule({
